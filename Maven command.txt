@@ -1,0 +1,3 @@
+This command will run specified groups
+
+mvn test -Dgroups=a

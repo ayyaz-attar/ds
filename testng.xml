@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Intuitive Surgical Automation Report-Mobile iOS TCs">
+    <test name="Test1">
+        <classes>
+            <class name="ui.Test1" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="ui.Test2" />
+        </classes>
+    </test>
+</suite>

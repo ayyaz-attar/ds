@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="106" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+    <groups>
+      <group name="a">
+        <method signature="Test1.test1a()[pri:0, instance:ui.Test1@551aa95a]" name="test1a" class="ui.Test1"/>
+        <method signature="Test2.test2a()[pri:0, instance:ui.Test2@35d176f7]" name="test2a" class="ui.Test2"/>
+      </group> <!-- a -->
+      <group name="b">
+        <method signature="Test1.test1b()[pri:0, instance:ui.Test1@551aa95a]" name="test1b" class="ui.Test1"/>
+        <method signature="Test2.test2b()[pri:0, instance:ui.Test2@35d176f7]" name="test2b" class="ui.Test2"/>
+      </group> <!-- b -->
+    </groups>
+    <test name="Command line test" duration-ms="106" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+      <class name="ui.Test2">
+        <test-method status="PASS" signature="test2a()[pri:0, instance:ui.Test2@35d176f7]" name="test2a" duration-ms="0" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2a -->
+        <test-method status="PASS" signature="test2b()[pri:0, instance:ui.Test2@35d176f7]" name="test2b" duration-ms="1" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2b -->
+      </class> <!-- ui.Test2 -->
+      <class name="ui.Test1">
+        <test-method status="PASS" signature="test1a()[pri:0, instance:ui.Test1@551aa95a]" name="test1a" duration-ms="11" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1a -->
+        <test-method status="PASS" signature="test1b()[pri:0, instance:ui.Test1@551aa95a]" name="test1b" duration-ms="1" started-at="2019-10-16T23:28:41 IST" finished-at="2019-10-16T23:28:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1b -->
+      </class> <!-- ui.Test1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
